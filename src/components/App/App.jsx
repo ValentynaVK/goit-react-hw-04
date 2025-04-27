@@ -33,7 +33,6 @@ export default function App() {
         setIsLoading(false);
       }
     }
-
     fetchPictures();
   }, [page, searchQuery, perPage]);
 
