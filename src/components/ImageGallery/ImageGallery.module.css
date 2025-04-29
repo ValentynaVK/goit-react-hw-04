@@ -1,12 +1,13 @@
+.GalleryContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
 .list {
-  margin: 10px;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  column-gap: 10px;
-}
-.item {
-  flex-basis: calc((100% - 40px) / 4);
-  height: 230px;
-  cursor: zoom-in;
+  gap: 12px;
+  align-items: stretch;
 }
